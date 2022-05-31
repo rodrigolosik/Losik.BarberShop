@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{BC768531-E9C2-4406-9C51-F6EEE213FD0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{BA4F4A36-828A-4BF0-A30A-0E600EDEC22B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{BF9301DF-2AF4-4C6C-A774-45E14190D3BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infra", "4. Infra", "{E0E1F14B-970F-4D17-BA8F-7058394AA8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. IoC", "5. IoC", "{A90A1964-8819-4C31-A183-CE47CFE31720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Losik.BarberShop.Api", "Losik.BarberShop.Api\Losik.BarberShop.Api.csproj", "{317EE945-930E-47E9-8847-85E41A442F0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Losik.BarberShop.Application", "Losik.BarberShop.Application\Losik.BarberShop.Application.csproj", "{597AA3FF-0718-4A06-933C-43540BB16C19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Losik.BarberShop.Domain", "Losik.BarberShop.Domain\Losik.BarberShop.Domain.csproj", "{8AF4070C-8723-450A-8E50-9C67DA690E27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Losik.BarberShop.Infra", "Losik.BarberShop.Infra\Losik.BarberShop.Infra.csproj", "{30BF9F89-F8BF-4B31-8635-73E293B87553}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Losik.BarberShop.IoC", "Losik.BarberShop.IoC\Losik.BarberShop.IoC.csproj", "{1CDE8C34-299C-46C4-9F1B-4D74D773642B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Losik.BarberShop.CrossCutting", "Losik.BarberShop.CrossCutting\Losik.BarberShop.CrossCutting.csproj", "{62B3489D-6B3B-43A1-BB5F-2137E858B6E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317EE945-930E-47E9-8847-85E41A442F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317EE945-930E-47E9-8847-85E41A442F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317EE945-930E-47E9-8847-85E41A442F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317EE945-930E-47E9-8847-85E41A442F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597AA3FF-0718-4A06-933C-43540BB16C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597AA3FF-0718-4A06-933C-43540BB16C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597AA3FF-0718-4A06-933C-43540BB16C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597AA3FF-0718-4A06-933C-43540BB16C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF4070C-8723-450A-8E50-9C67DA690E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF4070C-8723-450A-8E50-9C67DA690E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF4070C-8723-450A-8E50-9C67DA690E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF4070C-8723-450A-8E50-9C67DA690E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BF9F89-F8BF-4B31-8635-73E293B87553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BF9F89-F8BF-4B31-8635-73E293B87553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BF9F89-F8BF-4B31-8635-73E293B87553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BF9F89-F8BF-4B31-8635-73E293B87553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDE8C34-299C-46C4-9F1B-4D74D773642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDE8C34-299C-46C4-9F1B-4D74D773642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDE8C34-299C-46C4-9F1B-4D74D773642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDE8C34-299C-46C4-9F1B-4D74D773642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B3489D-6B3B-43A1-BB5F-2137E858B6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B3489D-6B3B-43A1-BB5F-2137E858B6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B3489D-6B3B-43A1-BB5F-2137E858B6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B3489D-6B3B-43A1-BB5F-2137E858B6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{317EE945-930E-47E9-8847-85E41A442F0C} = {BC768531-E9C2-4406-9C51-F6EEE213FD0F}
+		{597AA3FF-0718-4A06-933C-43540BB16C19} = {BA4F4A36-828A-4BF0-A30A-0E600EDEC22B}
+		{8AF4070C-8723-450A-8E50-9C67DA690E27} = {BF9301DF-2AF4-4C6C-A774-45E14190D3BC}
+		{30BF9F89-F8BF-4B31-8635-73E293B87553} = {E0E1F14B-970F-4D17-BA8F-7058394AA8BF}
+		{1CDE8C34-299C-46C4-9F1B-4D74D773642B} = {A90A1964-8819-4C31-A183-CE47CFE31720}
+		{62B3489D-6B3B-43A1-BB5F-2137E858B6E0} = {A90A1964-8819-4C31-A183-CE47CFE31720}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DEC57CD-38F5-4A50-B720-3B5BE2BD71BF}
+	EndGlobalSection
+EndGlobal

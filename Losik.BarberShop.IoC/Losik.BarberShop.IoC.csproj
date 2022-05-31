@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Losik.BarberShop.Application\Losik.BarberShop.Application.csproj" />
+    <ProjectReference Include="..\Losik.BarberShop.CrossCutting\Losik.BarberShop.CrossCutting.csproj" />
+    <ProjectReference Include="..\Losik.BarberShop.Infra\Losik.BarberShop.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
